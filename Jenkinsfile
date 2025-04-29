@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Clonamos el repositorio
-                git 'https://github.com/ejemplo/jenkins-nodejs-example.git'
+                // Clonamos el repositorio de pruebaCICD
+                git 'https://github.com/Aospinaherran/pruebaCICD.git'
             }
         }
 
