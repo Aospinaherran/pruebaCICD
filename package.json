@@ -4,9 +4,9 @@
   "description": "Demo de Jenkins Pipeline para Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"  // El comando para ejecutar las pruebas
+    "test": "jest"
   },
   "devDependencies": {
-    "jest": "^28.0.0"  // Dependencia de Jest para realizar pruebas
+    "jest": "^28.0.0"
   }
 }
