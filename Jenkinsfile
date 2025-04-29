@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clonamos el repositorio de pruebaCICD
-                git 'https://github.com/Aospinaherran/pruebaCICD.git'
+                git branch: 'main', url: 'https://github.com/Aospinaherran/pruebaCICD.git'
             }
         }
 
