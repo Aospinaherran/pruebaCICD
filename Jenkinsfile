@@ -1,10 +1,6 @@
 pipeline {
     agent any  // Esto ejecuta el pipeline en cualquier nodo disponible
 
-    environment {
-        // Aquí puedes definir variables de entorno si es necesario
-    }
-
     stages {
         stage('Checkout') {
             steps {
