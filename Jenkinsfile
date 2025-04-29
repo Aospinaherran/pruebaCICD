@@ -12,14 +12,14 @@ pipeline {
         stage('Install dependencies') {
             steps {
                 // Instalamos las dependencias de Node.js usando npm
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Run tests') {
             steps {
                 // Ejecutamos las pruebas con Jest
-                sh 'npm test'
+                bat 'npm test'
             }
         }
 
